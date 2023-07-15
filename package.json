@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "yino-admin-front",
+  "author": "linweiran <linwr19910608@126.com>",
+  "scripts": {
+    "dev": "max dev",
+    "dev:mock": "cross-env UMI_ENV=mock max dev",
+    "dev:test": "cross-env UMI_ENV=test max dev",
+    "dev:pre": "cross-env UMI_ENV=pre max dev",
+    "dev:prod": "cross-env UMI_ENV=prod max dev",
+    "build:dev": "max build",
+    "build:test": "max build",
+    "build": "max build",
+    "format": "prettier --cache --write .",
+    "prepare": "husky install",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev",
+    "openapi": "max openapi"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/pro-components": "^2.4.4",
+    "@ant-design/use-emotion-css": "^1.0.4",
+    "@umijs/max": "^4.0.72",
+    "antd": "^5.4.0",
+    "mockjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/mockjs": "^1.0.7",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "@umijs/fabric": "^4.0.1",
+    "@umijs/max-plugin-openapi": "^2.0.3",
+    "cross-env": "^7.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "swagger-ui-dist": "^5.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3",
+    "umi-presets-pro": "^2.0.3"
+  }
+}

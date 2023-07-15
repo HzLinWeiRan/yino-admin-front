@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": false
+  },
+  "extends": "./src/.umi/tsconfig.json"
+}
