@@ -7,7 +7,7 @@ import { history, Link } from '@umijs/max';
 import defaultSettings from '../config/defaultSettings';
 import { errorConfig } from './requestErrorConfig';
 import { currentUser as queryCurrentUser } from '@/services/yino-admin-front/api';
-import React from 'react';
+// import React from 'react';
 const isDev = process.env.NODE_ENV === 'development';
 const loginPath = '/user/login';
 
@@ -61,7 +61,7 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
     waterMarkProps: {
       content: initialState?.currentUser?.name,
     },
-    footerRender: () => <Footer />,
+    // footerRender: () => <Footer />,
     onPageChange: () => {
       const { location } = history;
       // 如果没有登录，重定向到 login

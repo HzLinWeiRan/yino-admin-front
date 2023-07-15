@@ -1,5 +1,11 @@
 export default [
   {
+    name: '首页',
+    path: '/user/login',
+    component: './User/Login',
+    layout: false
+  },
+  {
     path: '/',
     redirect: '/home',
   },

@@ -1,5 +1,16 @@
 import { ProLayoutProps } from '@ant-design/pro-components';
 
+// {
+//   "navTheme": "light",
+//   "primaryColor": "#1890ff",
+//   "layout": "mix",
+//   "contentWidth": "Fluid",
+//   "fixedHeader": false,
+//   "fixSiderbar": true,
+//   "pwa": false,
+//   "logo": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+//   "headerHeight": 48
+// }
 /**
  * @name
  */
